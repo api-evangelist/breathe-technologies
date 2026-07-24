@@ -1,24 +1,57 @@
 aid: breathe-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/breathe-technologies.png
 name: Breathe Technologies
-description: 'Breathe Technologies is a company surfaced as a portfolio company of kleiner-perkins and
-  added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Breathe Technologies, Inc. is a California-based medical device company that develops
+  wearable and continuous ventilation systems for patients with chronic respiratory insufficiency
+  and neuromuscular disease. Its flagship Life2000 Ventilation System is an FDA-cleared, ultra-lightweight
+  ventilator that adapts from a stationary compressor to a wearable device, supporting both acute
+  and chronic respiratory failure in home and institutional settings. Breathe Technologies is a
+  Kleiner Perkins portfolio company and is now part of the Hillrom family (acquired by Baxter),
+  with the Life2000 system distributed under Baxter respiratory care. This is a hardware medical
+  device manufacturer with no public developer, API, or programmatic integration surface.'
 url: https://raw.githubusercontent.com/api-evangelist/breathe-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - kleiner-perkins
+x-parent: hillrom-baxter
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- Medical Devices
+- Ventilators
+- Respiratory Care
+- Home Healthcare
+- Medical Hardware
+common:
+- type: Website
+  url: https://www.breathetechnologies.com/
+- type: PrivacyPolicy
+  url: https://www.breathetechnologies.com/privacy-policy/
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
