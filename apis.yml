@@ -36,7 +36,6 @@ x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - kleiner-perkins
-x-parent: hillrom-baxter
 x-tier: stub
 x-tier-reason: portfolio-lead-no-api-surface
 specificationVersion: '0.23'
@@ -66,3 +65,5 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-parent: hillrom-baxter
+x-relationship: acquisition
